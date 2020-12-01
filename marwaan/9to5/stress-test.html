@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>9 to 5 Worker Stress: Stress Test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Description" lang="en" content="9 to 5 Worker Stress, aiming to help out those stressed and point them in the right direction!">
+        <meta name="author" content="Marwaan Issa m.issa2@wlv.ac.uk">
+        <meta name="robots" content="index, follow">
+
+        <!-- Icon -->
+        <link rel="shortcut icon" href="icon.png">
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" title="styles-light" href="assets/css/styles-light.css">
+        <link rel="alternate stylesheet" type="text/css" title="styles-dark" href="assets/css/styles-dark.css">
+        
+        <!-- CSS Font -->
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        
+        <!-- Scripts -->
+        <!-- Google Analytics -->
+        <!-- Delete this bit if you don't plan on using Google Analytics -->
+        <!-- End Google Analytics -->
+        
+        <!-- Cookie Consent -->
+        <script type="text/javascript">
+            window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"http://mi-linux.wlv.ac.uk/~1517146/privacy-and-cookie-policy.html","theme":"dark-bottom"};
+        </script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+       
+       
+        <!-- End Cookie Consent -->
+        
+        <!-- Style Change -->
+        <script type="text/javascript" src="assets/js/style-change.js"></script>
+        <!-- End Style Change -->
+        
+    </head>
+    <body onload="set_style_from_cookie()">
+        <div class="header">
+            <div class="container">
+                <center><h1 class="header-heading"><img src= "assets/img/logo.png" alt="9 to 5 Stress written around a picture of a clock" width=100px, height=100px><strong>9 to 5 Worker Stress</strong></center></h1>
+            </div>
+        </div>
+         <center><div class="nav-bar">
+            <div class="container">
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="stress-test.html">Stress Test</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="further-support.html">Further Support</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+					<li><a href="contact us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div></center>
+        
+		 <div class="content">
+            <div class="container">
+                <div class="main">
+				<form name="Personality Test">
+                    <h1><center><strong>Stress Test</strong></h1>
+                    <hr>
+                    <h3><b>Question 1.</h3>
+                    <h5>Do you often lose focus at work?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q1" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q1" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q1" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q1" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                    </div>
+                    </blockquote>
+                    <hr>
+                    
+                    <h3><b>Question 2.</h3>
+                    <h5>Do you find yourself falling behind with work quiet often?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q2" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q2" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q2" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q2" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                    </div>        
+                    </blockquote>
+                    <hr>
+                    
+                    <h3><b>Question 3.</h3>
+                    <h5>Do you feel superior to other people in the workplace?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q3" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q3" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q3" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q3" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                    </div>
+                    </blockquote>
+                    <hr>
+                    
+                    <h3><b>Question 4.</h3>
+                    <h5>Does your mood change very quickly?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q4" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q4" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q4" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q4" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                    </div>
+                    </blockquote>
+                    <hr>
+                    
+                    <h3><b>Question 5.</h3>
+                    <h5>Are you often envious of others?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q5" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q5" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q5" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q5" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+					</div>
+                    </blockquote>
+                    <hr>
+					
+					<h3><b>Question 6.</h3>
+                    <h5>Are you someone who follows routines or do you go with the flow?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q6" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q6" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q6" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q6" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+					</div>
+                    </blockquote>
+                    <hr>
+					
+					<h3><b>Question 7.</h3>
+                    <h5>When at work do you often find yourself being impulsive and Spontaneous?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q7" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q7" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q7" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q7" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+					</div>
+                    </blockquote>
+                    <hr>
+					
+					<h3><b>Question 8.</h3>
+                    <h5>Are you usually highly motivated and energetic?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q8" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q8" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q8" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q8" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+					</div>
+                    </blockquote>
+                    <hr>
+					
+					<h3><b>Question 9.</h3>
+                    <h5>Do you know many of your co-workers at work?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the them
+                          <input type="radio" name="q9" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Some of them
+                          <input type="radio" name="q9" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q9" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q9" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+					</div>
+                    </blockquote>
+                    <hr>
+					
+					<h3><b>Question 10.</h3>
+                    <h5>Do you often worry about how your actions affect other people?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q10" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q10" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q10" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q10" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+					</div>
+                    </blockquote>
+                    <hr>
+					
+					
+					<h3><b>Question 11.</h3>
+                    <h5>Do you let other people influence your actions?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q11" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q11" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q11" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q11" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+					</div>
+                    </blockquote>
+                    <hr>
+					
+					
+					<h3><b>Question 12.</h3>
+                    <h5>Does your emotions control you more than you control them?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q12" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q12" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q12" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q12" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+					</div>
+                    </blockquote>
+                    <hr>
+					
+					<h3><b>Question 13.</h3>
+                    <h5>Can people rarely upset you?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q13" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q13" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q13" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q13" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+					</div>
+                    </blockquote>
+                    <hr>
+					
+					<h3><b>Question 14.</h3>
+                    <h5>How often are you feeling down,depressed, or hopeless?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q14" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q14" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Rarely
+                          <input type="radio" name="q14" value="Rarely">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q14" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+					</div>
+                    </blockquote>
+                    <hr>
+					
+					<h3><b>Question 15.</h3>
+                    <h5>Is it common to have trouble falling or staying asleep, or sleeping too much?</b></h5>
+                    <blockquote>
+                    <div>
+                        <label class="radio-container">Most of the time
+                          <input type="radio" name="q15" value="Most of the time">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Sometimes
+                          <input type="radio" name="q15" value="Sometimes">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Calm
+                          <input type="radio" name="q15" value="Calm">
+                          <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="radio-container">Not at all
+                          <input type="radio" name="q15" value="Not at all">
+                          <span class="radio-checkmark"></span>
+                        </label>
+											
+                    </div>
+                    </blockquote>
+                    <hr>
+
+                    <input class="button" type="button" value="Result" onClick="getScore(this.form);">
+                    <input class="button" type="reset" value="Clear">
+					<p>Number of score out of 15 = <input type=text size=15 name="mark"></p>
+                    <p>Score in percentage = <input type=text size=15 name="percentage"></p>
+                    <p>Result <input type=text size=15 name="result"></p>
+					
+                    <form method="post" name="Form" onsubmit="" action="">
+                    </form>
+
+                    <script>
+                        var numQues = 15;
+                        var numChoi = 4;
+                        var answers = new Array(15);
+                            answers[0] = "Most of the time";
+                            answers[1] = "Sometimes";
+                            answers[2] = "Rarely";
+                            answers[3] = "Not at all";
+                            answers[4] = "Most of the time";
+							answers[5] = "Most of the time";
+                            answers[6] = "Sometimes";
+                            answers[7] = "Rarely";
+                            answers[8] = "Not at all";
+                            answers[9] = "Most of the time";
+							answers[10] = "Most of the time";
+                            answers[11] = "Sometimes";
+                            answers[12] = "Rarely";
+                            answers[13] = "Most of the time";
+                            answers[14] = "Most of the time";
+							
+							
+                                        
+                        function getScore(form) {
+                            var score = 0;
+                            var currElt;
+                            var currSelection;
+                            for (i=0; i<numQues; i++) {
+                                currElt = i*numChoi;
+                                answered=false; 
+                                for (j=0; j<numChoi; j++) {
+                                    currSelection = form.elements[currElt + j];
+                                    if (currSelection.checked) {
+                                        answered=true;
+                                        if (currSelection.value == answers[i]) {
+                                            score++;
+                                            break;
+                                        }
+                                    }
+                                }
+                                if (answered ===false) {
+                                    alert("Please answer all of the questions!") ;return false;
+                                }
+                            }
+
+                            var scoreper = Math.round(score/numQues*100);
+                            form.percentage.value = scoreper + "%";
+                            form.mark.value=score;
+							
+							if (score <=3){
+								form.result.value = ("You are not very stressed");
+							}else if (score>=4 && score <=7){
+								form.result.value = ("You are slightly stressed");
+                            }else if (score>=8 && score <=11){
+								form.result.value = ("You are stressed");
+                            }else if (score>=12){
+                                form.result.value = ("You are very stressed");
+                            }
+                        }
+										
+                    </script>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="container">
+				<img src= "assets/img/EUC_logo.png" class = "responsive" align="right" width= 100 height= 100 hspace="20"/> <img src= "assets/img/hse_logo.jpg" class = "responsive" align="right" width= 100 height= 100 hspace="20"/>
+                <p>Site Info: <a href="privacy-and-cookie-policy.html">Privacy &amp; Cookie Policy</a> &#124; <a href="sitemap.html">Sitemap</a> &#124; 9 to 5 Worker Stress &copy; 2018 &ndash;
+                <script language="javascript" type="text/javascript">
+                var today = new Date()
+                var year = today.getFullYear()
+                document.write(year)
+                </script></p>
+                <p>Contact: E: <a href="mailto:b.westwood3@wlv.ac.uk">b.westwood3@wlv.ac.uk</a> &#124; <a href="mailto:e.costa@wlv.ac.uk">e.costa@wlv.ac.uk</a> &#124; <a href="mailto:h.ahmed22@wlv.ac.uk">h.ahmed22@wlv.ac.uk</a> &#124; <a href="mailto:j.burnside@wlv.ac.uk">j.burnside@wlv.ac.uk</a> &#124; <a href="mailto:j.hobbs3@wlv.ac.uk">j.hobbs3@wlv.ac.uk</a> &#124; <a href="mailto:p.patel4@wlv.ac.uk">p.patel4@wlv.ac.uk</a> &#124; <a href="mailto:m.issa2@wlv.ac.uk">m.issa2@wlv.ac.uk</a></p>
+               
+            </div>
+        </div>
+    </body>
+</html>
