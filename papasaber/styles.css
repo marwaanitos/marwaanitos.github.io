@@ -3,8 +3,8 @@ body {
   }
   .outer-wrapper{
     border:2px solid black;
-    width: 100vh;
-    height: 100vw;
+    width: 300vh;
+    height: 130vw;
     transform:rotate(-90deg) translateX(-100vh);
     transform-origin:top left;
     overflow-y:scroll;
