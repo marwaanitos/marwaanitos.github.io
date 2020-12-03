@@ -21,6 +21,14 @@ body{
 	text-shadow: 1px 2px 2px #1C6EA4;
 }
 
+.container:hover{	
+	width:25%;
+	margin:auto;
+	overflow:hidden;
+	color: rgb(250, 2, 2);
+	text-shadow: 1px 2px 2px #1C6EA4;
+}
+
 .container2{	
 	width:25%;
 	margin-top: 51%;
@@ -31,9 +39,19 @@ body{
 	text-shadow: 1px 2px 2px #1C6EA4;
 }
 
+.container2:hover{	
+	width:25%;
+	margin-top: 51%;
+	margin-left: 35%;
+	margin-bottom: 1px;
+	overflow:hidden;
+	color: rgb(255, 2, 2);
+	text-shadow: 1px 2px 2px #1C6EA4;
+}
 .main-header{
 	color: rgb(204, 154, 154);
 }
+
 
   .HelloVideo {
 	float: left;
