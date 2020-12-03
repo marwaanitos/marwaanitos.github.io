@@ -13,12 +13,34 @@ body{
 	position: fixed;
 }
 
+.container{	
+	width:25%;
+	margin:auto;
+	overflow:hidden;
+	color: rgb(255, 255, 255);
+	text-shadow: 1px 2px 2px #1C6EA4;
+}
+
+.container2{	
+	width:25%;
+	margin-top: 51%;
+	margin-left: 35%;
+	margin-bottom: 1px;
+	overflow:hidden;
+	color: rgb(255, 255, 255);
+	text-shadow: 1px 2px 2px #1C6EA4;
+}
+
+.main-header{
+	color: rgb(204, 154, 154);
+}
+
   .HelloVideo {
 	float: left;
 	/* border: 10px red solid; */
 	margin-top: 0%;
-	margin-right: 30%;
-	margin-left: 30%;
+	margin-right: 25%;
+	margin-left: 25%;
 	margin-bottom: 2%;
   }
 
@@ -58,11 +80,12 @@ body{
   .MainItem {
 	float: left;
 	/* border: 10px red solid; */
-	margin-top: 10%;
+	margin-top: 1%;
 	margin-right: 30%;
 	margin-left: 30%;
 	margin-bottom: 2%;
   }
+
 
   .MiniProfile1 {
 	float: left;
